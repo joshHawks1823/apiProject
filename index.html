@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>GIF Search</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <h2>Gif Search</h2>
     <main>
-      <form>
-        <label for="search">Search</label>
-        <input id="search" type="search" />
-        <button id="btnSearch">Go</button>
+      <form class="example">
+        <!-- <label for="search">Search</label> -->
+        <input id="search" type="search" placeholder="Search for a GIF?" />
+        <button id="btnSearch"><i class="fi-xnsuhl-search"></i></button>
       </form>
-      <div class="out"></div>
+      <div class="output"></div>
     </main>
     <script src="app.js"></script>
   </body>
